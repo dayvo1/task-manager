@@ -147,6 +147,12 @@ int main(int, char**)
                 new_task_input[0] = '\0';  // Clear the input field
             }
         }
+        
+        ImGui::Separator();
+
+        // Input field for new reminder
+        ImGui::Text("Add a new reminder:");
+        
 
         ImGui::End();
 
