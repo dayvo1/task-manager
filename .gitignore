@@ -1,0 +1,21 @@
+# Build artifacts
+build/
+*.o
+*.a
+*.dylib
+*.so
+
+# ImGui library (users should clone it themselves)
+imgui/
+
+# IDE settings
+.vscode/
+
+# OS files
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Executables
+task-manager
